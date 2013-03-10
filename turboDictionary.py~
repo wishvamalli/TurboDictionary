@@ -61,7 +61,7 @@ class turboDictionary(dict):
 			self.inbound[key] = l
     
 	def get_links_origin(self,start_key):
-	    if 'L' in self.type:
+	    if 'L' in self.outbound:
 		if start_key in self.outbound:
 		    return self.outbound[start_key]
 		else:

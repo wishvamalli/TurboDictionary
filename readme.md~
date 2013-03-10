@@ -1,0 +1,14 @@
+TurboDictionary 
+
+TurboDictionary imprements a python dictionary with two additional features.
+
+1. Ability to automatically compress the values. This is useful when you want to store large strings / values.
+
+2. Creating one to many relationships between keys of the dictionary. This effectively makes a dictionary behave like a two column (key, value) table in a relational DB.
+
+The user can specifiy one or both of the features.
+
+
+Examples:
+
+import Turbo
